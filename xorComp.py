@@ -1,9 +1,11 @@
-inputBufferOne = input("Enter Buffer 1 (default = c0111001f010100061a024b53535009181c)")
+inputBufferOne = input("Enter Buffer 1 (default = c0111001f010100061" +
+                       "a024b53535009181c)")
 
 if not inputBufferOne:
     inputBufferOne = "1c0111001f010100061a024b53535009181c"
 
-inputBufferTwo = input("Enter Buffer 2 (default = 686974207468652062756c6c277320657965)")
+inputBufferTwo = input("Enter Buffer 2 (default = 686974207468652062" +
+                       "756c6c277320657965)")
 
 if not inputBufferTwo:
     inputBufferTwo = "686974207468652062756c6c277320657965"
